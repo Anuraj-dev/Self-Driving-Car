@@ -13,7 +13,7 @@ function animate() {
   canvas.height = window.innerHeight;
 
   ctx.save();
-  ctx.translate(0, -car.y + canvas.height * 0.7);
+  ctx.translate(0, -car.y + canvas.height * 0.7); //?Why is generating the effect like camera on top of the car??
 
   road.draw(ctx);
   car.draw(ctx);
