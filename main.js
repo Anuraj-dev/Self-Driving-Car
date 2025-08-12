@@ -23,7 +23,7 @@ function animate() {
   for (let i = 0; i < traffic.length; i++) {
     traffic[i].draw(ctx, "blue");
   }
-  car.draw(ctx, "black");
+  car.draw(ctx, "red");
 
   ctx.restore();
   requestAnimationFrame(animate);
