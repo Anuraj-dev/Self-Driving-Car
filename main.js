@@ -11,7 +11,7 @@ function animate() {
   car.update();
 
   canvas.height = window.innerHeight;
-  car.draw(ctx);
   road.draw(ctx);
+  car.draw(ctx);
   requestAnimationFrame(animate);
 }
