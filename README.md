@@ -71,3 +71,7 @@ Nothing scores a car or ends a generation. Cars run until they crash, and only a
 | `controls.js` | The four control flags, and the arrow-key listeners for the `KEYS` type |
 | `utils.js` | `lerp`, segment intersection, polygon overlap, and color helpers |
 | `car.png` | The 64 by 107 pixel car sprite that each car tints |
+
+## License
+
+MIT. See [LICENSE](LICENSE).
